@@ -15,13 +15,16 @@ A Java Development Kit must be downloaded. Please find and download the Microsof
 
 Please follow these [instructions](https://www.jetbrains.com/help/idea/installation-guide.html) to download the latest version of the community edition of IntelliJ [here.](https://www.jetbrains.com/idea/download/#section=windows)
 
-![image](https://user-images.githubusercontent.com/99365396/201757624-83b134fe-d6e2-4841-9723-7cdbe3b86b5c.png)
 
 ## Demo endpoints
 | Functionality                                                                         | Endpoint (`HTTP Verb` + `Path`)         |
 | ------------------------------------------------------------------------------------- | --------------------------------------- |
-| Add User                                                                              | `POST /demo/add?name=<name>&email=<email>`|
-| Get All Users                                                                         | `GET /demo/all`                         |
+| Add Player                                                                              | `POST /demo/add?name=<name>&sport=<sport>`|
+| Get All Players                                                                         | `GET /demo/all`                         |
+| Get Player by ID                                                                         | `GET /demo/getPlayerById?id=<id>`      |
+| Delete Player                                                                        | `DELETE /demo/deletePlayer?id=<id>`        |
+| Patch Player                                                                        | `PATCH /demo/changePlayerName?id=<id>&newName=<name>` |
+| Put Player                                                      | `PUT /demo/replacePlayer?id=<id>&newName=<name>&newSport=<sport>` |
 
 ## Making a Postman call
 1. Run the spring boot application
@@ -32,7 +35,3 @@ Please follow these [instructions](https://www.jetbrains.com/help/idea/installat
 ### Completed postman collection
 `postman_demo.postman_collection.json`
 Attached to this repo is a completed postman collection; import it into the postman app to see it
-
-### To Do
-- Add endpoints that use request bodies
-- Change DB to H2 from MySQL workbench
