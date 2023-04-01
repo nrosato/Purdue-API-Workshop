@@ -42,5 +42,5 @@ Please follow these [instructions](https://www.jetbrains.com/help/idea/installat
 ![image](https://user-images.githubusercontent.com/99365396/201766650-b3256317-35ee-41f8-a703-3a27519a61b0.png)
 
 ### Completed postman collection
-`postman_demo.postman_collection.json`
+`Purdue API Workshop.postman_collection.json`
 Attached to this repo is a completed postman collection; import it into the postman app to see it
