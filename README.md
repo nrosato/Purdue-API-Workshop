@@ -2,6 +2,9 @@
 ## HammerWars API and Postman Demo Workshop
 This is a demo application intended to help hackathoner's get comfortable with Postman and Spring Boot
 
+![image](https://user-images.githubusercontent.com/99365396/229256297-56000db7-3919-4778-b9df-6175a010ea77.png)
+
+
 ## Prerequisite tools
 ### Java 17 Installation for those who do not have it
 
