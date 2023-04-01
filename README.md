@@ -15,6 +15,12 @@ A Java Development Kit must be downloaded. Please find and download the Microsof
 
 Please follow these [instructions](https://www.jetbrains.com/help/idea/installation-guide.html) to download the latest version of the community edition of IntelliJ [here.](https://www.jetbrains.com/idea/download/#section=windows)
 
+## PLAYER Table
+| Column                                                                                          | Description         |
+| ------------------------------------------------------------------------------------- | --------------------------------------- |
+| Player ID                                                                           | `Integer` Player ID number|
+| Player Name                                                                        | `String` The Player's name                         |
+| Sport                                                                        |  `String` The sport the player plays      |
 
 ## Demo endpoints
 | Functionality                                                                         | Endpoint (`HTTP Verb` + `Path`)         |
